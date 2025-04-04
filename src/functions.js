@@ -48,5 +48,11 @@ function yeeHa(number){
     return response;
 }
 
+function calculateSlope(x1,y1,x2,y2){
+    const slope = (y2-y1)/(x2-x1);
+    return slope;
 
-export {hello, fahrenheitToCelsius, feetToAcre, lawnTime, airQuality, yeeHa}
+}
+
+
+export {hello, fahrenheitToCelsius, feetToAcre, lawnTime, airQuality, yeeHa, calculateSlope}

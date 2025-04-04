@@ -1,4 +1,4 @@
-import {fahrenheitToCelsius, hello} from './functions.js';
+import {feetToAcre, fahrenheitToCelsius, hello,} from './functions.js';
 
 function Question1(){
     return <section>
@@ -20,4 +20,14 @@ function Question2(){
     </section>
 }
 
-export {Question1, Question2}
+function Question2Real(){
+    return <section>
+2. There are 43,560 square feet per acre. Write a program that converts square feet to acres. Test at least 3 conversions.
+    <h2>results</h2> 
+    <p>feetToAcre(2000) == "{feetToAcre(2000)}"</p>
+    <p>feetToAcre(13000) == "{feetToAcre(13000)}"</p>   
+    <p>feetToAcre(67000) == "{feetToAcre(67000)}"</p>      
+    </section>
+}
+
+export {Question1, Question2, Question2Real}

@@ -7,5 +7,9 @@ function fahrenheitToCelsius(fahrenheit){
     return celsius
 }
 
+function feetToAcre(feet){
+    const Acre = (feet/433560);
+    return Acre
+}
 
-export {hello, fahrenheitToCelsius}
+export {hello, fahrenheitToCelsius, feetToAcre}

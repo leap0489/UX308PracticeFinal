@@ -12,4 +12,9 @@ function feetToAcre(feet){
     return Acre
 }
 
-export {hello, fahrenheitToCelsius, feetToAcre}
+function lawnTime(width, length, rate){
+    const minutes = (width*length)/rate;
+    return minutes;
+}
+
+export {hello, fahrenheitToCelsius, feetToAcre, lawnTime}

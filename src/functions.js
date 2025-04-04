@@ -34,5 +34,19 @@ function airQuality(quality){
     return description;
 }
 
+function yeeHa(number){
+    let response;
+    if (number % 3 === 0 && number % 7 === 0){
+        response = "Yee Ha";
+    }else if (number % 3 === 0){
+        response = "Yee";
+    }else if (number % 7 === 0){
+        response = "Ha";
+    }else if (number % 3 !== 0 && number % 7 !== 0){
+        response = "Nada";
+    }
+    return response;
+}
 
-export {hello, fahrenheitToCelsius, feetToAcre, lawnTime, airQuality}
+
+export {hello, fahrenheitToCelsius, feetToAcre, lawnTime, airQuality, yeeHa}

@@ -1,4 +1,4 @@
-import {feetToAcre, fahrenheitToCelsius, hello, lawnTime, airQuality} from './functions.js';
+import {feetToAcre, fahrenheitToCelsius, hello, lawnTime, airQuality, yeeHa} from './functions.js';
 
 function Question1(){
     return <section>
@@ -53,4 +53,15 @@ function Question4(){
     </section>
 }
 
-export {Question1, Question2, Question2Real, Question3, Question4}
+function Question5(){
+    return <section>
+5. yee_ha takes an integer parameter and returns one of the following strings:
+    <h2>results</h2>
+    <p>yeeHa(6) == "{yeeHa(6)}"</p>
+    <p>yeeHa(14) == "{yeeHa(14)}"</p>
+    <p>yeeHa(21) == "{yeeHa(21)}"</p>
+    <p>yeeHa(13) == "{yeeHa(13)}"</p>
+    </section>
+}
+
+export {Question1, Question2, Question2Real, Question3, Question4, Question5}

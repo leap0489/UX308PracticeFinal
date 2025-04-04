@@ -33,6 +33,7 @@ function Question2Real(){
 function Question3(){
     return <section>
 3. Given the width of a lawn in metres, length of a lawn in metres and the square metres cut per minute calculate the minutes it would take to mow that lawn. 
+    <h2>results</h2>    
     <p>lawnTime(40,30,4) == "{lawnTime(40,30,4)}"</p>
     <p>lawnTime(50,50,10) == "{lawnTime(50,50,10)}"</p>
     <p>lawnTime(60,70,2) == "{lawnTime(60,70,2)}"</p>
